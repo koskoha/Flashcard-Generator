@@ -1,0 +1,22 @@
+{
+  "name": "generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "run.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/koskoha/Flashcard-Generator.git"
+  },
+  "author": "Kostiantyn Kobylinskyi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/koskoha/Flashcard-Generator/issues"
+  },
+  "homepage": "https://github.com/koskoha/Flashcard-Generator#readme",
+  "dependencies": {
+    "sf": "^0.1.8"
+  }
+}

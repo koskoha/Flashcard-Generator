@@ -13,11 +13,12 @@ function ClozeCard(text, cloze) {
 
     this.fullText = text;
     this.cloze = cloze;
+    this.partial = getCloze(text, cloze);
+}
 
-    //replace text in "text" string by "..."
-    this.partial = function() {
-        return this.fullText.replace(this.cloze, "...");
-    };
+//replace text in "text" string by "..."
+function getCloze(text, cloze) {
+    return text.replace(cloze, "...");
 }
 
 module.exports = ClozeCard;
